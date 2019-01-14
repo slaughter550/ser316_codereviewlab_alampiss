@@ -27,6 +27,11 @@ class MainFrame extends JFrame {
 	JButton			displayAccountsButton;
 	JButton			displayODAccountsButton;
 
+	/**
+	 * Instantiates a JFrame with the properties from the given file
+	 * @param String propertyFile - path to the property file to load
+	 * @throws IOException
+	 */
 	public MainFrame(String propertyFile) throws IOException {
 
 		//** initialize myServer
